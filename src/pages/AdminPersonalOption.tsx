@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import AdminNavbar from '@/components/AdminNavbar';
-import { FiTrash2, FiPlus, FiEdit } from 'react-icons/fi';
+import { FiTrash2, FiEdit } from 'react-icons/fi';
 import AdminTop from '@/components/AdminTop';
 import type { AppDispatch, RootState } from '@/Store';
 import { useDispatch, useSelector } from 'react-redux';

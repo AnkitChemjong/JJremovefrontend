@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useLocation, NavLink } from 'react-router-dom';
 import { 
   FaTh, 
@@ -13,7 +13,6 @@ import {
   FaQuestionCircle,
   FaImages,
   FaUserCog,
-  FaUsers,
   FaUserShield
 } from 'react-icons/fa';
 

@@ -10,8 +10,7 @@ import {
 import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { useSelector } from 'react-redux';
-import { type RootState, type AppDispatch } from '@/Store';
-import { useDispatch } from 'react-redux';
+import { type RootState } from '@/Store';
 import axiosClient from '@/Services/AxiosRequest';
 import { Create_Booking_Requests_Route } from '@/Routes';
 import Loader from './Loader';
@@ -23,7 +22,6 @@ interface BookingDialogProps {
 }
 
 export function BookingDialog({ openDialog, setOpenDialog }: BookingDialogProps) {
-  const dispatch = useDispatch<AppDispatch>();
   const { data: vehicleData } = useSelector((state: RootState) => state.vehicles);
   const { data: personalData } = useSelector((state: RootState) => state.personalOption);
   const [showLoader,setShowLoader]=useState<boolean>(false);

@@ -87,7 +87,6 @@ const ADMIN_ROLES = [
 ];
 
 
-
 const AdminSideDialog = ({ type, openDialog, setOpenDialog, editUser }: AdminSideDialogProps) => {
   const dispatch = useDispatch<AppDispatch>();
   const { data: admin } = useSelector((state: RootState) => state.currentAdmin);

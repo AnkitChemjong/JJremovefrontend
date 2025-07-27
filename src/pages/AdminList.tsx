@@ -2,8 +2,8 @@ import { useState } from 'react';
 import AdminNavbar from '@/components/AdminNavbar';
 import { FiEye } from 'react-icons/fi';
 import AdminTop from '@/components/AdminTop';
-import { useDispatch, useSelector } from 'react-redux';
-import type { AppDispatch, RootState } from '@/Store';
+import { useSelector } from 'react-redux';
+import type { RootState } from '@/Store';
 import {
   Table,
   TableBody,

@@ -1,5 +1,4 @@
 import  { FaDollarSign, FaUsers, FaGraduationCap, FaClock, FaHeadset,
-FaTruck,FaHome, FaTrashAlt, FaBox, FaBuilding, FaMusic, FaCouch, FaTags,
 FaShieldAlt,
 FaSmile, FaHistory, FaTruckMoving,
  FaHeart, FaMapMarkerAlt
