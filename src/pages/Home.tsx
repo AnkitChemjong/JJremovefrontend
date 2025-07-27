@@ -116,7 +116,7 @@ const Home = () => {
         </DialogContent>
       </Dialog>
       )}
-      <div className="w-full min-h-screen relative bg-[url('./images/happy.jpg')]
+      <div className="w-full min-h-screen relative bg-[url('/images/happy.jpg')]
       bg-no-repeat bg-center bg-cover md:mt-33 mt-28 flex justify-start items-center md:px-0 px-2">
         <motion.div
         initial={{opacity:0,y:10}} 

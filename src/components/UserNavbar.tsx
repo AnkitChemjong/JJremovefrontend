@@ -57,7 +57,7 @@ const UserNavbar = () => {
           delay:0.3
         }}
         className='flex flex-row justify-between items-center space-x-4'>
-          <img src="./images/logo.png" className='w-10 h-10 md:w-15 md:h-15' alt="" />
+          <img src="/images/logo.png" className='w-10 h-10 md:w-15 md:h-15' alt="" />
           <h1 className='text-lg md:text-3xl text-blue-800 font-bold'>JJ<span className='text-2xl md:text-4xl text-blue-500'>Nepali</span>Removal</h1>
         </motion.div>
 

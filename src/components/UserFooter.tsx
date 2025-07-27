@@ -62,7 +62,7 @@ const UserFooter = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           <div className="space-y-4">
             <div className='flex flex-row justify-between items-center md:space-x-2'>
-            <img src="./images/logo.png" className='w-10 h-10 md:w-15 md:h-15' alt="" />
+            <img src="/images/logo.png" className='w-10 h-10 md:w-15 md:h-15' alt="" />
             <h1 className='text-base md:text-2xl text-blue-800 font-bold'>
             JJ<span className='text-lg md:text-3xl text-blue-500'>Nepali</span>Removal
           </h1>

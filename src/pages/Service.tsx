@@ -53,7 +53,7 @@ const Service = () => {
     return (
         <div className='overflow-x-hidden'>
             <UserNavbar />
-            <div className="w-full min-h-screen relative bg-[url('./images/about.jpg')]
+            <div className="w-full min-h-screen relative bg-[url('/images/about.jpg')]
                 bg-no-repeat bg-center bg-cover md:mt-33 mt-28 flex justify-center items-center md:px-0 px-2
                 shadow-sm shadow-black">
                 <motion.div
