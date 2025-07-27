@@ -49,7 +49,7 @@ const getCustomerReviewsSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getCustomerReview.pending, (state, action) => {
+      .addCase(getCustomerReview.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

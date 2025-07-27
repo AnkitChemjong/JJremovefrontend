@@ -50,7 +50,7 @@ const faqsSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getFaqs.pending, (state, action) => {
+      .addCase(getFaqs.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

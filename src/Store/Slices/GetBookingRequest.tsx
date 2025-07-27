@@ -68,7 +68,7 @@ const getBookingRequestSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getBookingRequest.pending, (state, action) => {
+      .addCase(getBookingRequest.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

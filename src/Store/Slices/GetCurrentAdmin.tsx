@@ -56,7 +56,7 @@ const adminDataSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(adminData.pending, (state, action) => {
+      .addCase(adminData.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

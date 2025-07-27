@@ -53,7 +53,7 @@ const getNoticeSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getNotice.pending, (state, action) => {
+      .addCase(getNotice.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

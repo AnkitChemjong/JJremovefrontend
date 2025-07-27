@@ -52,7 +52,7 @@ const getServicesSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getServices.pending, (state, action) => {
+      .addCase(getServices.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

@@ -46,7 +46,7 @@ const personalOptionsSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(personalOptions.pending, (state, action) => {
+      .addCase(personalOptions.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

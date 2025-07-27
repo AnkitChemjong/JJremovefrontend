@@ -60,7 +60,7 @@ const getAdminNoticeSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getAdminNotice.pending, (state, action) => {
+      .addCase(getAdminNotice.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

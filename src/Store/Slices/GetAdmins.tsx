@@ -59,7 +59,7 @@ const getUsersSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getUsers.pending, (state, action) => {
+      .addCase(getUsers.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

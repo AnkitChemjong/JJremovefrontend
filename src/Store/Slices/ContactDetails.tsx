@@ -54,7 +54,7 @@ const contactDetailsSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(contactData.pending, (state, action) => {
+      .addCase(contactData.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

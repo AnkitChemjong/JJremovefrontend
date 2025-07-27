@@ -54,7 +54,7 @@ const getVehicleSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getVehicle.pending, (state, action) => {
+      .addCase(getVehicle.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

@@ -57,7 +57,7 @@ const getAdminReviewsSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getAdminReview.pending, (state, action) => {
+      .addCase(getAdminReview.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

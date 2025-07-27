@@ -54,7 +54,7 @@ const getTeamSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getTeam.pending, (state, action) => {
+      .addCase(getTeam.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })

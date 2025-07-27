@@ -261,7 +261,7 @@ const About = () => {
                       alt={member.name}
                       className="w-full h-full object-cover"
                       onError={(e) => {
-                        e.target.src = '/path/to/default/image.jpg';
+                        (e.target as HTMLImageElement).src= '/path/to/default/image.jpg';
                       }}
                     />
                   ) : (

@@ -52,7 +52,7 @@ const getGalleryMediaSlice = createSlice({
         state.data = action.payload;
         state.loading = false;
       })
-      .addCase(getGalleryMedia.pending, (state, action) => {
+      .addCase(getGalleryMedia.pending, (state) => {
         state.status = "pending";
         state.loading = true;
       })
